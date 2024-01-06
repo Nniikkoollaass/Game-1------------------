@@ -1,5 +1,4 @@
 import pygame
-import random
 from pygame.constants import QUIT
 
 pygame.init()
@@ -9,8 +8,9 @@ HEIGT = 800
 WIDTH = 1200
 COLOR_WHITE = (255, 255, 255)
 COLOR_BLACK = (0, 0, 0)
+NEW_COLOR = (0, 255, 0)
 
-main_display = pygame.display.set_mode((WIDTH, HEIGT))
+main_display = pygame.display.set_mode((WIDTH, HEIGT)) # задаємо розміри екрану
 
 player_sixe = (20, 20)
 
